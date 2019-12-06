@@ -1,0 +1,93 @@
+D:\HUSSAIN\SMS\SMS\SMS\bin\Debug\SMS.exe.config
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.AdminPanel.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.CDKey.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.ChangePassword.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.DBLocation.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.Form1.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.KeyCode.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.Lectures.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.Login.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Lectures.SplashSceen.resources
+D:\HUSSAIN\SMS\SMS\SMS\bin\Debug\SMS.exe
+D:\HUSSAIN\SMS\SMS\SMS\bin\Debug\SMS.pdb
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.exe
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.pdb
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Interop.ADODB.dll
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\Interop.JRO.dll
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.SMTPConfiguration.resources
+D:\HUSSAIN\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertTimeConfiguration.resources
+D:\SMSAlert\SMS\SMS\SMS\bin\Debug\SMS.exe.config
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Interop.ADODB.dll
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Interop.JRO.dll
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.exe
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.pdb
+D:\SMSAlert\SMS\SMS\SMS\bin\Debug\SMS.exe
+D:\SMSAlert\SMS\SMS\SMS\bin\Debug\SMS.pdb
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Lectures.AdminPanel.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Lectures.ChangePassword.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Lectures.DBLocation.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.Form1.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Lectures.Login.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertTimeConfiguration.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.SMTPConfiguration.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\Lectures.SplashSceen.resources
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+D:\SMSAlert\SMS\SMS\SMS\obj\Debug\SMS.frmEmailBlaster.resources
+D:\SMSAlert\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.dll
+D:\SMSAlert\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.xml
+D:\SMS\SMS\SMS\bin\Debug\SMS.exe.config
+D:\SMS\SMS\SMS\obj\Debug\Interop.ADODB.dll
+D:\SMS\SMS\SMS\obj\Debug\Interop.JRO.dll
+D:\SMS\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+D:\SMS\SMS\SMS\obj\Debug\SMS.exe
+D:\SMS\SMS\SMS\obj\Debug\SMS.pdb
+D:\SMS\SMS\SMS\bin\Debug\SMS.exe
+D:\SMS\SMS\SMS\bin\Debug\SMS.pdb
+D:\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.dll
+D:\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.xml
+D:\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\SMS\SMS\SMS\obj\Debug\SMS.Form1.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.frmEmailBlaster.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertTimeConfiguration.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.SMTPConfiguration.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+D:\SMS\SMS\SMS\obj\Debug\SMS.AdminPanel.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.ChangePassword.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.DBLocation.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.Login.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.SplashSceen.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.DeleteLogs.resources
+D:\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertConfig.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\bin\Debug\SMS.exe.config
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\Interop.ADODB.dll
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\Interop.JRO.dll
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.exe
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.pdb
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\bin\Debug\SMS.exe
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\bin\Debug\SMS.pdb
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.dll
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\bin\Debug\Newtonsoft.Json.xml
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.AdminPanel.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.ChangePassword.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.DBLocation.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.DeleteLogs.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.EmailContent.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.Form1.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.frmEmailBlaster.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.Login.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertConfig.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.SMSAlertTimeConfiguration.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.SMTPConfiguration.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.SplashSceen.resources
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache

@@ -1,0 +1,295 @@
+3/20/2019 4:50:24 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 4:50:24 PM   Could not find output table 'EmailLog'.   System.Data.OleDb.OleDbException (0x80040E37): Could not find output table 'EmailLog'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SMS.frmEmailBlaster.SendEmailAndImportData(DataTable DBDataTable, String varFileName) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 171
+------------------------------------------------
+3/20/2019 5:23:58 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:24:00 PM   Table 'EmailLog' is exclusively locked by user 'Admin' on machine 'USER-PC'.   System.Data.OleDb.OleDbException (0x80004005): Table 'EmailLog' is exclusively locked by user 'Admin' on machine 'USER-PC'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SMS.frmEmailBlaster.SendEmailAndImportData(DataTable DBDataTable, String varFileName) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 171
+------------------------------------------------
+3/20/2019 5:24:29 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:24:29 PM   The connection was not closed. The connection's current state is open.   System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SMS.frmEmailBlaster.SendEmailAndImportData(DataTable DBDataTable, String varFileName) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 162
+------------------------------------------------
+3/20/2019 5:24:29 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:24:30 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:32:33 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:32:33 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/20/2019 5:32:33 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:04:44 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:07:54 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:07:54 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:08:44 PM   Could not find file 'D:\sp.txt'.      System.IO.FileNotFoundException: Could not find file 'D:\sp.txt'.
+File name: 'D:\sp.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:08:44 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:08:44 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:11:43 PM   Failure sending mail.      System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: net_io_connectionclosed.
+   at System.Net.Mail.SmtpReplyReaderFactory.ProcessRead(Byte[] buffer, Int32 offset, Int32 read, Boolean readLine)
+   at System.Net.Mail.SmtpReplyReaderFactory.ReadLines(SmtpReplyReader caller, Boolean oneLine)
+   at System.Net.Mail.SmtpReplyReaderFactory.ReadLine(SmtpReplyReader caller)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 243
+------------------------------------------------
+3/21/2019 4:11:50 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/21/2019 4:11:51 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/29/2019 3:04:16 PM   Failure sending mail.      System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtpout.secureserver.net'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 243
+------------------------------------------------
+3/29/2019 3:04:20 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\1.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/29/2019 3:04:21 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/29/2019 3:21:57 PM   Failure sending mail.      System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'mail.hussainaenterprise.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 243
+------------------------------------------------
+3/29/2019 3:21:58 PM   Failure sending mail.      System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'mail.hussainaenterprise.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 243
+------------------------------------------------
+3/29/2019 3:21:58 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+3/29/2019 3:23:11 PM   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS\SMS\SMS\frmEmailBlaster.cs:line 238
+------------------------------------------------
+19/07/2019 13:54:13   Mailbox unavailable. The server response was: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)      System.Net.Mail.SmtpException: Mailbox unavailable. The server response was: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\frmEmailBlaster.cs:line 262
+------------------------------------------------
+19/07/2019 13:54:37   Mailbox unavailable. The server response was: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)      System.Net.Mail.SmtpException: Mailbox unavailable. The server response was: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\frmEmailBlaster.cs:line 262
+------------------------------------------------
+19/07/2019 13:54:38   Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.      System.IO.DirectoryNotFoundException: Could not find a part of the path 'H:\fast_he_time_attendance_system\htas\www\content\email\2018-09-01_2018-09-30\2.html'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\frmEmailBlaster.cs:line 257
+------------------------------------------------
+24/07/2019 18:33:39   Input string was not in a correct format.      System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\frmEmailBlaster.cs:line 222
+------------------------------------------------
+24/07/2019 18:34:37   Input string was not in a correct format.      System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at SMS.frmEmailBlaster.SendEmail(String varEmailTo, String varAttachment) in D:\SMS DEVELOPMENT\SMS DEVELOPMENT\SMS\SMS\SMS\frmEmailBlaster.cs:line 222
